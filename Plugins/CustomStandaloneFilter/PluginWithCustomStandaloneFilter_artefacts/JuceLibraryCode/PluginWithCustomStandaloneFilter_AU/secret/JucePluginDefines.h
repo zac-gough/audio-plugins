@@ -1,0 +1,40 @@
+#pragma once
+#define JucePlugin_Build_AU 1
+#define JucePlugin_Build_AUv3 0
+#define JucePlugin_Build_AAX 0
+#define JucePlugin_Build_Standalone 1
+#define JucePlugin_Build_Unity 0
+#define JucePlugin_Build_VST 0
+#define JucePlugin_Build_VST3 1
+#define JucePlugin_IsSynth 0
+#define JucePlugin_ManufacturerCode 0x4a756365
+#define JucePlugin_Manufacturer "MyCompany"
+#define JucePlugin_ManufacturerWebsite ""
+#define JucePlugin_ManufacturerEmail ""
+#define JucePlugin_PluginCode 0x44656d30
+#define JucePlugin_ProducesMidiOutput 0
+#define JucePlugin_IsMidiEffect 0
+#define JucePlugin_WantsMidiInput 1
+#define JucePlugin_EditorRequiresKeyboardFocus 0
+#define JucePlugin_Name "Custom Standalone Filter"
+#define JucePlugin_Desc "Custom Standalone Filter"
+#define JucePlugin_Version 0.0.1
+#define JucePlugin_VersionString "0.0.1"
+#define JucePlugin_VersionCode 0x1
+#define JucePlugin_VSTUniqueID JucePlugin_PluginCode
+#define JucePlugin_VSTCategory kPlugCategEffect
+#define JucePlugin_Vst3Category "Fx"
+#define JucePlugin_AUMainType 'aumf'
+#define JucePlugin_AUSubType JucePlugin_PluginCode
+#define JucePlugin_AUExportPrefix Custom_Standalone_FilterAU
+#define JucePlugin_AUExportPrefixQuoted "Custom_Standalone_FilterAU"
+#define JucePlugin_AUManufacturerCode JucePlugin_ManufacturerCode
+#define JucePlugin_CFBundleIdentifier com.MyCompany.PluginWithCustomStandaloneFilter
+#define JucePlugin_AAXIdentifier com.MyCompany.PluginWithCustomStandaloneFilter
+#define JucePlugin_AAXManufacturerCode JucePlugin_ManufacturerCode
+#define JucePlugin_AAXProductId JucePlugin_PluginCode
+#define JucePlugin_AAXCategory 0
+#define JucePlugin_AAXDisableBypass 0
+#define JucePlugin_AAXDisableMultiMono 0
+#define JucePlugin_VSTNumMidiInputs 16
+#define JucePlugin_VSTNumMidiOutputs 16
