@@ -1,4 +1,4 @@
-add_subdirectory(NewPluginTemplate)
+add_subdirectory(DistortionPlugin)
 add_subdirectory(PluginWithCustomModule)
 add_subdirectory(CustomStandaloneFilter)
 add_subdirectory(MinimalPluginTemplate)
